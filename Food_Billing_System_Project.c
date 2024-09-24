@@ -66,7 +66,7 @@ int main()
 		scanf(" %c",&ch);
 		
 		if (ch == 'n' || ch == 'N')
-	    {
+	        {
       		break;
    		}
 	}	
