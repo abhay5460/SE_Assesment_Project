@@ -67,8 +67,12 @@ int main()
 		
 		if (ch == 'n' || ch == 'N')
 	        {
-      		break;
+      			break;
    		}
+		else
+		{
+			Continue;
+		}
 	}	
 	// Display the final bill
 	printf("Total Orders : No. %d \n",Orders);
