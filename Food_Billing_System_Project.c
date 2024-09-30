@@ -18,7 +18,7 @@ int main()
 		printf(" 3. Dossa 150Rs./pcs\n");
 		printf(" 4. Idli 90Rs./pcs\n");
 		printf("-------------------------------------\n");
-	
+		
 		printf("Enter the Choice (1-4) :");
 		scanf("%d",&choice);
 		
@@ -56,9 +56,9 @@ int main()
 			continue;
 		}
 		
-		Total_Amount += Amount ;
+		Total_Amount += Amount ; //Calculate the total amount
 		
-		Orders += quantity ;
+		Orders += quantity ; //Calculate the total order
 		
 		printf("Total Amount : Rs. %.2f \n",Total_Amount);
 		
